@@ -43,9 +43,7 @@ Replace **(announcementType)** with one of the following: _General, Appsplash, T
 #### Successful 200
 
 ```js
-{
-
-	"data":  [
+  [
 
 				{
 
@@ -84,7 +82,7 @@ Replace **(announcementType)** with one of the following: _General, Appsplash, T
 				}
 
 			]
-}
+
 ```
 
 #### Failed 500
@@ -162,13 +160,13 @@ Replace **(announcementID)** with the id of the desired announcement
 ```js
 {
 
-	"data":	{
+	
 
 				"announcementID":  4,
 				"authorName":  "Mahmoud Nael",
 				"announcementMessage":  "this is a new announcement",
 				"announcementDate":  "11 Feb 2024, 7:39 pm"
-			},
+			
 }
 ```
 
@@ -224,9 +222,7 @@ Replace **(taskWorkshop)** with one of the following: Appsplash, Techsolve, Inve
 #### Successful 200
 
 ```js
-{
-
-	"data":  [
+ [
 
 				{
 
@@ -243,7 +239,7 @@ Replace **(taskWorkshop)** with one of the following: Appsplash, Techsolve, Inve
 				},
 
 			]
-}
+
 ```
 
 #### Failed 500
@@ -291,14 +287,14 @@ Replace **(taskID)** with the id of the desired task
 ```js
 {
 
-	"data":	{
+	
 
 				"taskID":  4,
 				"authorName":  "Mahmoud Nael",
 				"taskMessage":  "this is a new announcement",
 				"taskDate":  "11 Feb 2024, 7:39 pm",
 				"taskDeadline": "11 Feb 2024, 7:39 pm",
-			},
+			
 }
 ```
 
@@ -353,9 +349,7 @@ Replace **(taskID)** with id of the desired task
 #### Successful 200
 
 ```js
-{
-
-	"data":  [
+ [
 
 				{
 
@@ -370,7 +364,7 @@ Replace **(taskID)** with id of the desired task
 				},
 
 			]
-}
+
 ```
 
 #### Failed 500
@@ -418,7 +412,7 @@ GET "/app/24/api/tasks/(taskID)/submissions/user"
 
 ```js
 {
-	"data": {
+
 
 					"submissionID":  4,
 
@@ -428,7 +422,7 @@ GET "/app/24/api/tasks/(taskID)/submissions/user"
 
 					"submissionDate":  "11 Feb 2024, 7:39 pm"
 
-				},
+				
 }
 ```
 
