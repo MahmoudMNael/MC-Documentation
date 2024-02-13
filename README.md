@@ -318,7 +318,7 @@ Replace **(taskID)** with id of the desired task
 
 ```js
 {
-	"taskMessage": "The link of the submission (Google Drive)",
+	"submissionMessage": "The link of the submission (Google Drive)",
 }
 ```
 
